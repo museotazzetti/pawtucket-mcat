@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CollectiveAccess Pawtucket2 it_IT\n"
 "POT-Creation-Date: 2016-10-10 23:03-0400\n"
-"PO-Revision-Date: 2022-06-22 18:47+0200\n"
+"PO-Revision-Date: 2022-07-13 09:59+0200\n"
 "Last-Translator: Enrico Peter Grande <enricopeter.grande@museotazzetti.it>\n"
 "Language-Team: Museo Tazzetti ICT <ict@museotazzetti.it>\n"
 "Language: it_IT\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _t;_\n"
@@ -29,7 +29,7 @@ msgstr "Browse %1"
 #: controllers/BrowseController.php:219 controllers/ListingController.php:171
 #: controllers/SearchController.php:268
 msgid "Sort with %1"
-msgstr ""
+msgstr "Ordina con %1"
 
 #: controllers/ClassroomController.php:130
 msgid "Group"
@@ -75,7 +75,7 @@ msgstr ""
 #: controllers/ContributeController.php:70
 #: controllers/ContributeController.php:229
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuisci"
 
 #: controllers/ContributeController.php:117 helpers/themeHelpers.php:1022
 msgid "Submit"
@@ -207,7 +207,7 @@ msgstr "Per favore, inserisci un messaggio"
 
 #: controllers/DetailController.php:968 controllers/LoginRegController.php:315
 msgid "Please answer the security question."
-msgstr "Per favore, rispondi alla domanda di controllo"
+msgstr "Per favore, rispondi alla domanda di controllo."
 
 #: controllers/DetailController.php:971 controllers/LoginRegController.php:318
 msgid "Your answer was incorrect, please try again"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: controllers/DetailController.php:1025
 msgid "Your email was sent"
-msgstr ""
+msgstr "La tua email è stata inviata"
 
 #: controllers/DetailController.php:1041
 msgid "There were errors in your form"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: controllers/DetailController.php:1044
 msgid "Your message was sent"
-msgstr ""
+msgstr "Il tuo messaggio è stato inviato"
 
 #: controllers/DetailController.php:1097 lib/ca/BaseEditorController.php:2233
 msgid "downloaded_file"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: controllers/GalleryController.php:51
 msgid "Featured Galleries"
-msgstr ""
+msgstr "Galleria in evidenza"
 
 #: controllers/GalleryController.php:55
 msgid "gallery"
@@ -993,7 +993,7 @@ msgstr ""
 
 #: helpers/displayHelpers.php:1093 helpers/displayHelpers.php:1104
 msgid "%1 ago"
-msgstr ""
+msgstr "%1 fa"
 
 #: helpers/displayHelpers.php:1096
 msgid "<strong>Created</strong><br/>%1 by %2"
@@ -1015,11 +1015,11 @@ msgstr "Creato il %1"
 
 #: helpers/displayHelpers.php:1107
 msgid "<strong>Last changed</strong><br/>%1 by %2"
-msgstr ""
+msgstr "<strong>Ultima modifica</strong><br/>%1 da %2"
 
 #: helpers/displayHelpers.php:1107
 msgid "<strong>Last changed</strong><br/>%1"
-msgstr ""
+msgstr "<strong>Ultima modifica</strong><br/>%1"
 
 #: helpers/displayHelpers.php:1110
 msgid "Last changed on"
@@ -1313,7 +1313,7 @@ msgstr ""
 
 #: helpers/displayHelpers.php:3459
 msgid "Download"
-msgstr ""
+msgstr "Scarica"
 
 #: helpers/displayHelpers.php:3532 helpers/displayHelpers.php:3655
 #: lib/ca/BaseEditorController.php:1780
@@ -2684,7 +2684,7 @@ msgstr ""
 
 #: helpers/htmlFormHelpers.php:395
 msgid "More..."
-msgstr ""
+msgstr "Di più..."
 
 #: helpers/importHelpers.php:75
 msgid ""
@@ -2862,7 +2862,7 @@ msgstr "breve descrizione"
 
 #: helpers/searchHelpers.php:1177
 msgid "display name"
-msgstr ""
+msgstr "nome visualizzato"
 
 #: helpers/searchHelpers.php:1178
 msgid "surname, forename"
@@ -2883,7 +2883,7 @@ msgstr "data"
 #: helpers/searchHelpers.php:1247 helpers/searchHelpers.php:1253
 #: models/ca_users.php:47
 msgid "user"
-msgstr ""
+msgstr "utente"
 
 #: helpers/themeHelpers.php:511
 msgid "Tags"
@@ -2891,7 +2891,7 @@ msgstr ""
 
 #: helpers/themeHelpers.php:515
 msgid "Add your tags and comment"
-msgstr ""
+msgstr "Aggiungi i tuoi tag e commenti"
 
 #: helpers/themeHelpers.php:517
 msgid "Login/register to comment on this object"
@@ -2935,15 +2935,15 @@ msgstr ""
 
 #: helpers/themeHelpers.php:695
 msgid "Created by:"
-msgstr ""
+msgstr "Creato da:"
 
 #: helpers/themeHelpers.php:696
 msgid "Items:"
-msgstr ""
+msgstr "Elementi:"
 
 #: helpers/themeHelpers.php:697
 msgid "Comments:"
-msgstr ""
+msgstr "Commenti:"
 
 #: helpers/themeHelpers.php:882
 msgid "lightbox"
@@ -2967,7 +2967,7 @@ msgstr ""
 
 #: helpers/themeHelpers.php:964 helpers/themeHelpers.php:978
 msgid "Add to %1"
-msgstr ""
+msgstr "Aggiungi a %1"
 
 #: helpers/themeHelpers.php:1033
 msgid "AND"
@@ -4706,19 +4706,19 @@ msgstr ""
 
 #: lib/ca/BaseAdvancedSearchController.php:78
 msgid "%1 advanced search"
-msgstr ""
+msgstr "%1 ricerca avanzata"
 
 #: lib/ca/BaseBrowseController.php:180
 msgid "%1 browse"
-msgstr ""
+msgstr "%1 esplora"
 
 #: lib/ca/BaseBrowseController.php:282
 msgid "browse"
-msgstr ""
+msgstr "esplora"
 
 #: lib/ca/BaseBrowseController.php:340 lib/ca/BaseBrowseController.php:344
 msgid "Browse"
-msgstr ""
+msgstr "Esplora"
 
 #: lib/ca/BaseEditorController.php:110
 msgid "Duplicated %1 \"%2\" (%3)"
@@ -4959,12 +4959,12 @@ msgstr ""
 #: lib/ca/BaseSearchController.php:468 models/ca_set_items.php:67
 #: models/ca_sets.php:91 models/ca_user_sorts.php:61
 msgid "Entities"
-msgstr ""
+msgstr "Entità"
 
 #: lib/ca/BaseSearchController.php:472 models/ca_set_items.php:68
 #: models/ca_sets.php:92 models/ca_user_sorts.php:62
 msgid "Places"
-msgstr ""
+msgstr "Luoghi"
 
 #: lib/ca/BaseVersionUpdater.php:133
 msgid ""
@@ -5179,7 +5179,7 @@ msgstr ""
 
 #: lib/ca/Browse/BrowseEngine.php:162
 msgid "Searches"
-msgstr ""
+msgstr "Ricerche"
 
 #: lib/ca/Browse/BrowseEngine.php:166 models/ca_data_importer_items.php:445
 msgid "Relationship type"
@@ -5199,7 +5199,7 @@ msgstr ""
 #: models/ca_search_indexing_queue.php:80
 #: models/ca_search_indexing_queue.php:107
 msgid "Yes"
-msgstr ""
+msgstr "Sì"
 
 #: lib/ca/Browse/BrowseEngine.php:541 lib/ca/Browse/BrowseEngine.php:595
 #: lib/ca/Browse/BrowseEngine.php:2463 lib/ca/Browse/BrowseEngine.php:3748
@@ -5207,7 +5207,7 @@ msgstr ""
 #: models/ca_search_indexing_queue.php:81
 #: models/ca_search_indexing_queue.php:108
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: lib/ca/Browse/BrowseEngine.php:614 lib/ca/Browse/BrowseEngine.php:4155
 msgid "Overdue"
@@ -9599,7 +9599,7 @@ msgstr ""
 
 #: lib/core/Plugins/GeographicMap/OpenLayers.php:296
 msgid "Loading..."
-msgstr ""
+msgstr "Caricamento..."
 
 #: lib/core/Plugins/GeographicMap/OpenLayers.php:521
 msgid "Remove"
@@ -9661,7 +9661,7 @@ msgstr ""
 #: models/ca_editor_uis.php:84 models/ca_metadata_type_restrictions.php:87
 #: models/ca_objects.php:51 models/ca_search_forms.php:92
 msgid "objects"
-msgstr ""
+msgstr "oggetti"
 
 #: lib/core/Plugins/InformationService/CollectiveAccess.php:59
 msgid "lots"
@@ -9673,7 +9673,7 @@ msgstr ""
 #: models/ca_editor_uis.php:86 models/ca_entities.php:43
 #: models/ca_metadata_type_restrictions.php:89 models/ca_search_forms.php:94
 msgid "entities"
-msgstr ""
+msgstr "entità"
 
 #: lib/core/Plugins/InformationService/CollectiveAccess.php:61
 #: models/ca_bookmarks.php:68 models/ca_bundle_displays.php:88
@@ -9681,7 +9681,7 @@ msgstr ""
 #: models/ca_editor_uis.php:87 models/ca_metadata_type_restrictions.php:90
 #: models/ca_places.php:45 models/ca_search_forms.php:95
 msgid "places"
-msgstr ""
+msgstr "luoghi"
 
 #: lib/core/Plugins/InformationService/CollectiveAccess.php:62
 #: models/ca_bookmarks.php:69 models/ca_bundle_displays.php:89
@@ -9698,7 +9698,7 @@ msgstr ""
 #: models/ca_data_importers.php:87 models/ca_editor_uis.php:89
 #: models/ca_metadata_type_restrictions.php:92 models/ca_search_forms.php:97
 msgid "collections"
-msgstr ""
+msgstr "collezioni"
 
 #: lib/core/Plugins/InformationService/CollectiveAccess.php:64
 #: models/ca_bookmarks.php:71 models/ca_bundle_displays.php:91
@@ -9733,11 +9733,11 @@ msgstr ""
 #: models/ca_editor_uis.php:100 models/ca_list_items.php:46
 #: models/ca_metadata_type_restrictions.php:101
 msgid "list items"
-msgstr ""
+msgstr "elenca elementi"
 
 #: lib/core/Plugins/InformationService/CollectiveAccess.php:70
 msgid "Item type"
-msgstr ""
+msgstr "tipologia di elementi"
 
 #: lib/core/Plugins/InformationService/CollectiveAccess.php:71
 msgid "Type of item to query for."
